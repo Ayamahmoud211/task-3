@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.PrpertiesPage .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+.PrpertiesPage .buttons button{
+    
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+}
+.PrpertiesPage .div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    
+}
+.PrpertiesPage .div div{
+    border: 1px solid black;
+    padding: 8px 12px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+.PrpertiesPage .div .icon{
+    padding: 8px 8px;
+}

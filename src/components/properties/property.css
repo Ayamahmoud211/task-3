@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pro{
+    padding: 20px 100px;
+    
+}
+/* .pro .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pro .all {
+    display: flex;
+    gap: 50px;
+}
+.pro .all .three {
+    padding: 30px;
+    background-color: #fafafa;
+    width: 30.7%;
+    border-radius: 5px;
+   
+}
+.pro .all .three img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+.pro .all .three .div1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.pro .all .three .div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ebe9e9;
+}
+.pro .all .three button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    transform: translate(64%);
+    
+}
+.pro .all .three .div1 .p{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #fbd9cf;
+    border-radius: 5px;
+}
+.pro .all .three .div1 .p2{
+    font-size: 20px;
+    color: #f35525;
+    font-weight: bold;
+}
+.pro .all .three h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pro .all .three .div2 span{
+    padding-bottom: 5px;
+    color: #424040;
+   
+} */
+
+.pro .div p{
+    color: #ee626b;
+    text-align: center;
+    padding: 0 4px 0 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width: max-content;
+    border-left: 1px solid #f35525;
+    transform: translateX(50%);
+    
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    
+}
+
+.nav1 , .nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    
+   
+
+}
+.nav1{
+    border-bottom: 1px solid #eeeeee;
+}
+.nav1 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.nav1 ul li a{
+    color: #7a8dba; 
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.nav1 ul .orange{
+    color: #f35525;
+}
+.nav1 .AM-icon li a{
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+
+}
+.nav2 ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+.nav2  .l{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 0 40px 40px 0;
+    padding: 7px 10px 0 21px;
+}
+.nav2 .div{
+    position: relative;
+    width: 40px;
+    height: 42px;
+    background-color: #f35525;
+    text-align: center;
+    left: 28px;
+    border-radius: 50%;
+
+}
+.nav2  .ll{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav2 .ul{
+    display: flex;
+    gap: 10px;
+}

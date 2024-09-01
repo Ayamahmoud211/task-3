@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.feature{
+    padding: 120px 100px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.feature .img{
+    
+    position: absolute;
+    background-color: #f35525;
+    border-radius: 50%;
+    padding: 21px;
+    top: 68%;
+    left: 96PX;
+}
+.feature .img1{
+    padding-left: 33px;
+}
+.feature .p1{
+    color: #ee626b;
+    border-left: 1px solid;
+    padding-left: 4px;
+    font-weight: bold;
+}
+.feature .h3{
+    width: 40%;
+    font-size: 35px;
+    padding: 30px 0 80px 0;
+}
+.feature .best{
+    color:#f35525 ;
+    font-size: 20px;
+    border-bottom: 1px solid #f1e8e8;
+    padding: 16px;
+    width: 100%;
+}
+.feature .div{
+    width: 90%;
+    border:1px solid #f1e8e8 ;
+    background-color: #fafafa;
+    border-radius: 20px;
+}
+.feature .get{
+    padding: 16px 16px 38px 16px;
+    font-size: 18px;
+}
+.feature .how{
+    font-size: 18px;
+    padding: 16px;
+    border-bottom: 1px solid #f1e8e8;
+
+}
+.feature .why{
+    font-size: 18px;
+    padding: 16px;
+}
+.feature .div2{
+    box-shadow: 0 0 8px 3px  #f1e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+.feature .div2 .divChild{
+    display: flex;
+    gap: 20px;
+    
+}
+.feature .div2 .border{
+    border-bottom:1px solid #f1e8e8 ;
+    padding-bottom: 34px;
+}

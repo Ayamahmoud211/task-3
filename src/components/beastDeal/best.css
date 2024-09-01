@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.best{
+    padding: 80px 100px;
+    background-color: #fafafa;
+}
+.best .div1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.best .div1 .div11 p{
+    color: #ee626b;
+    border-left: 1px solid #ee626b;
+    padding: 0 4px 0 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.best .div1 .div11 h3{
+    font-size: 48px;
+    font-weight: bold;
+    width: 52%;
+}
+.best .div1 .div12{
+    display: flex;
+    gap: 40px;
+    padding-top: 5rem;
+}
+.best .div1 .div12 div{
+    color: white;
+    padding: 16px;
+    background-color: black;
+    border-radius: 5px;
+    width: 9rem;
+    height: max-content;
+    text-align: center;
+}
+.best .div2 {
+    display: flex;
+    gap: 17px;
+    padding-top: 25px;
+}
+.best .div2 .div21 div{
+    display: flex;
+    gap: 20px;
+    padding: 21px 0;
+    border-bottom: 1px solid #ebe9e9;
+}
+.best .div2 .div21 div p{
+    color: #afafaf;
+    font-size: 20px;
+}
+.best .div2 .div21{
+    box-shadow: 0 0 8px 3px  #f1e8e8;
+    padding: 30px; 
+    border-radius: 5px;
+    width: 100%;
+    height: max-content;
+}
+.best .div2 .div21 div h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.best .div2 .div23{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.best .div2 .div23 .p{
+    width: 90%;
+    font-size: 20px;
+    color: #8e8d8e;
+}
+.best .div2 .div23 h4{
+    font-size: 23px;
+}
+.best .div2 .div23 .l{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 0 40px 40px 0;
+    padding: 7px 23px 0 26px;
+}
+.best .div2 .div23 .div{
+    position: relative;
+    width: 40px;
+    height: 42px;
+    background-color: #f35525;
+    text-align: center;
+    left: 16px;
+    border-radius: 50%;
+
+}
+.best .div2 .div23  .ll{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.best .div2 .div23 div{
+    display: flex;
+}

@@ -1,0 +1,66 @@
+ .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+   
+}
+.cards .all {
+    display: flex;
+    gap: 50px;
+
+}
+.cards .all .three {
+    padding: 30px;
+    background-color: #fafafa;
+    width: 30.7%;
+    border-radius: 5px;
+   
+}
+.cards .all .three img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+.cards .all .three .div1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.cards .all .three .div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ebe9e9;
+}
+.cards .all .three button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    transform: translate(64%);
+    
+}
+.cards .all .three .div1 .p{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #fbd9cf;
+    border-radius: 5px;
+}
+.cards .all .three .div1 .p2{
+    font-size: 20px;
+    color: #f35525;
+    font-weight: bold;
+}
+.cards .all .three h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards .all .three .div2 span{
+    padding-bottom: 5px;
+    color: #424040;
+   
+}
